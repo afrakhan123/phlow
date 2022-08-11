@@ -1,0 +1,464 @@
+.logo {
+    height: 130px;
+    width: 350px;
+    display: inline-block;
+    position: fixed;
+    left: 40px;
+    top: 25px;
+}
+
+.menu {
+    border: medium solid rgba(216, 216, 216, 0.833);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+
+#SignIn {
+    position: fixed;
+    top: 50px;
+    right: 700px;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 55px;
+    border: thin solid rgb(188, 188, 188);
+    border-radius: 100px;
+    padding-top: 21px;
+}
+
+#JoinNow {
+    position: fixed;
+    top: 50px;
+    right: 400px;
+    font-size: 30px;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 55px;
+    border: thin solid rgb(188, 188, 188);
+    border-radius: 100px;
+    padding-top: 21px;
+    background-color: rgb(0, 228, 152);
+}
+
+#Help {
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 55px;
+    border: thin solid rgb(188, 188, 188);
+    border-radius: 100px;
+    padding-top: 21px;
+}
+
+body {
+    position: relative;
+    top: 170px; 
+ }
+
+.form {
+    height: 1000px;
+    width: 24.7%;
+    display:inline-block;
+    border-bottom: thin solid rgb(231, 227, 227);
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 0%;
+    vertical-align: top;
+    padding: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-style:normal;
+    line-height: 30px;
+    font-weight: 10px;
+    z-index: 1;
+}
+
+.form img {
+    height: 50px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    top: 10px;
+}
+
+.formbody form {
+    background-color:rgb(207, 232, 255);
+    height: 675px;
+    margin: 35px;
+    border-radius: 5%;
+    font-size: 40px;
+    padding: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.formbody input {
+    border-radius: 35px;
+    padding: 15px;
+    line-height: 30px;
+    width: 250px;
+    height: 40px;
+    font-size: 40px;
+}
+
+.formbody label {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+    
+}
+
+.marketingBanner1 {
+    height: 1000px;
+    width: 37.5%;
+    display:inline-block;
+    background-image: url("./Logos/life-in-the-uk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: thin none white;
+    vertical-align: top;
+}
+
+.marketingBanner2 {
+    height: 1000px;
+    width: 37.5%;
+    display:inline-block;
+    background-image: url("./Logos/philippines.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+    border: thin none white;
+    vertical-align: top;
+}
+
+.promo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.section2 {
+    width: 100%;
+    height: 800px;
+    background-color:rgb(229, 242, 254);
+    border-top: thin solid rgb(200, 200, 200);   
+    border-bottom: thin solid rgb(200, 200, 200);   
+}
+
+.section3 {
+    width: 100%;
+    height: 700px;
+    background-color:aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section3 .bankTransfer {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 155px;
+    left: 350px;
+}
+
+.section3 .virtualWallets {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 155px;
+    left: 650px;
+}
+
+.section3 .cashPickUp {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 155px;
+    left: 950px;
+}
+
+.section3 .Gcash {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 155px;
+    left: 1250px;
+}
+
+.section3 .paymentTerms1 {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 180px;
+    left: 340px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Cambria;
+    font-weight:lighter;
+}
+
+.section3 .paymentTerms2 {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 180px;
+    left: 690px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Cambria;
+    font-weight:lighter;
+}
+
+.section3 .paymentTerms3 {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 180px;
+    left: 1050px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Cambria;
+    font-weight:lighter;
+}
+
+.section3 .paymentTerms4 {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 180px;
+    left: 1510px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Cambria;
+    font-weight:lighter;
+}
+
+.partners {
+    height: 600px;
+    width: 2000px;
+    margin: 0 auto;  
+}
+
+.countries {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    display:block;
+    position: relative;
+    bottom:30px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.countries .roundflags {
+    position:relative;
+    height: 190px;
+    width: 190px;
+}
+
+.questions {
+    height: 800px;
+    width: 100%;
+    margin: 0 auto; 
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-top: thin solid rgb(189, 189, 189);
+    border-bottom: thin solid rgb(189, 189, 189);
+    background-color:aliceblue;
+    margin-top: 0;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.questions .questions1 {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto; 
+    padding-left: 50px;
+    display:inline-block;
+    position:relative;
+    left:275px;
+    top:20px;
+}
+
+.questions .questions2 {
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    left:890px;
+    top: 50px;
+    padding-bottom: 50px;
+}
+
+.questions .questions3 {
+    height: 300px;
+    width: 400px;
+    margin: 0 auto; 
+    padding-left: 50px;
+    display:inline-block;
+    position:relative;
+    left:1400px;
+    padding-bottom: 50px;
+}
+
+.answers .answer1 {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 35px;
+    left: 110px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Cambria;
+    font-weight:lighter;
+}
+
+.answers .answer2 {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 35px;
+    left: 320px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Cambria;
+    font-weight:lighter;
+}
+
+.answers .answer3 {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 35px;
+    left: 520px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Cambria;
+    font-weight:lighter;
+}
+
+.faqs {
+    height:1150px;
+    width: 2000px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border: thin solid rgb(255, 255, 255);
+}
+
+.faqs h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.faqs li {
+    text-align: justify;
+    font-size: 40px;
+    line-height: 135px;
+}
+
+.footerDetails {
+    background-color: aliceblue;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+}
+
+.footerDetails .logofooter {
+    position:relative;
+    top: 160px;
+    padding-top: 10px;
+    padding-left: 30px;
+    display: inline-block;
+}   
+
+.footerDetails li {
+    display: inline-block;
+    vertical-align:text-top;
+    text-align: justify;
+    position:relative;
+    left: 1000px;
+}
+
+#company {
+    position:relative;
+    left: 600px;
+    font-size: 15px;
+}
+
+#company p {
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#product {
+    position:relative;
+    left: 850px;
+    font-size: 15px;
+}
+
+#product p {
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#support {
+    position:relative;
+    left: 1100px;
+    font-size: 15px;
+}
+
+#support p {
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#connect {
+    position:relative;
+    left: 1350px;
+    font-size: 15px;
+}
+
+#connect p {
+    font-size: 25px;
+    line-height: 50px;
+}
+
+div .applelogo {
+    position: relative;
+    height: 150px;
+    width: 250px;
+    display:inline-block;
+    left: 2155px;
+    bottom: 430px;
+}
+
+div .googlelogo {
+    position: relative;
+    height: 150px;
+    width: 250px;
+    display:inline-block;
+    left: 1902px;
+    bottom: 330px;
+}
+
